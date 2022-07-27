@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom-countries</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="wholePageDiv">
+
+
+        <div id="headlineDiv">
+
+            <h1 class="peachColor" id="headline">Its a small world after all - learn about all of its countries</h1>
+
+        </div>
+
+        <div id="searchInputDiv">
+
+            <input class="peachColor" id="countryInput" type="text" placeholder="Search for a country">
+            <button id="goButton" onclick="getCountryInfo()">GO</button>
+
+            <div id="autoCompleteDiv">
+                
+            </div>
+        </div>
+
+
+        <div id="nameFlagDiv">
+            <div class="peachColor" id="nameDiv">
+                <h1 id="countryName">country name</h1>
+            </div>
+            <img id="flagImage" src="" alt="Flag image">
+
+        </div>
+
+        <div id="countryInfo">
+            <div class="blackBorder" id="leftCountryInfo">
+                <p>languages: </p>
+                <div id="myLanguagesDiv">
+                    <p></p>
+                </div>
+                <div id="myPopulationDiv">
+                    <p></p>
+                </div>
+                <p>callingCodes: </p>
+                <div id="myCallingCodesDiv">
+                    <p></p>
+                </div>
+                <div id="myCapitalDiv">
+                    <p></p>
+                </div>
+                <p>altSpelling: </p>
+                <div id="myAltSpellingDiv">
+                    <p></p>
+                </div>
+                <div id="myRegionDiv">
+                    <p>Region: </p>
+                </div>
+
+                <div id="myLatitudeDiv">
+                    <p></p>
+                </div>
+                <div id="myLongitudeDiv">
+                    <p></p>
+                </div>
+                <p>timezones: </p>
+                <div id="myTimezonesDiv">
+                    <p></p>
+                </div>
+
+            </div>
+
+            <div class="blackBorder" id="rightCountryInfo">
+                <p>borders: </p>
+                <div id="myBordersDiv">
+                    <p></p>
+                </div>
+                <p>nativeName: </p>
+                <div id="myNativeNameDiv">
+                    <p></p>
+                </div>
+                <p>currencies: </p>
+                <div id="myCurrenciesDiv">
+                    <p></p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <script src="index.js"></script>
+    <script src="countries_list.js"></script>
+    <script src="autoComplete.js"></script>
+</body>
+
+</html>
